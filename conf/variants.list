@@ -1,0 +1,6 @@
+main=$mirror$/russianfedora/$repos$/releases/$version$/Everything/$arch$/$portion$/
+updates=$mirror$/russianfedora/$repos$/updates/$version$/$arch$/$portion$/
+updates-testing=$mirror$/russianfedora/$repos$/updates/testing/$version$/$arch$/$portion$/
+development=$mirror$/russianfedora/$repos$/development/$version$/$arch$/$portion$/
+build=$mirror$/build/$version$/$portion$/$arch$/
+build-development=$mirror$/build/development/$version$/$portion$/$arch$/
