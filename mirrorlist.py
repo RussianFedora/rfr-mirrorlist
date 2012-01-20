@@ -39,6 +39,17 @@ class MirrorList:
 
 		self.mlist += self._g_mirrors_strings()
 
+	#def __init__(self, path):
+	#	self.mlist = ''
+	#	self.path = path
+	#	self.mlist += self._g_init_string_path()
+	#	mirrors = self._get_config_file_as_list('mirrors.list')
+	#	for m in mirrors:
+	#		url = m + '/' + path
+	#		if url[-1:] != '/':
+	#			url += '/'
+	#		self.mlist += self._clear_slashes(url) + '\n'
+
 	def _clear_slashes(self, raw):
 		check_raw = raw
 		found_scheme_separator = raw.find('://')
